@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#CS").change(function(){
+   /* $("#CS").change(function(){
       disableSelect(this);
     });
 
@@ -9,9 +9,7 @@ $(document).ready(function(){
 
     $("#FI").change(function(){
       disableSelect(this);
-    });
-
-
+    });*/
   });
 
   function disableSelect (ctrl) {
