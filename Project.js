@@ -1,4 +1,4 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
     $("#CS").change(function(){
       disableSelect(this);
     });
@@ -10,7 +10,7 @@ $(document).ready(function(){
     $("#FI").change(function(){
       disableSelect(this);
     });
-  });
+  });*/
 
   function disableSelect (ctrl) {
     if (ctrl.value != "Types Of Courses" && ctrl.id == "CS") {
