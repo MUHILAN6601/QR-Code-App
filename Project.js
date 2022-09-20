@@ -1,3 +1,4 @@
+<script type="module">
 /*$(document).ready(function(){
     $("#CS").change(function(){
       disableSelect(this);
@@ -11,7 +12,6 @@
       disableSelect(this);
     });
   });*/
-
   function disableSelect (ctrl) {
     if (ctrl.value != "Types Of Courses" && ctrl.id == "CS") {
         $("#AC")[0].disabled = true;
@@ -167,3 +167,4 @@ function validateSubmit () {
         return false;
     }
 }
+</script>
